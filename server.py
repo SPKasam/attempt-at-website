@@ -5,6 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def my_home():
     return render_template('index.html')
+    # return "hello world"
 
 @app.route("/boring")
 def boring():
